@@ -1,0 +1,26 @@
+package Model;
+
+public class properties {
+    private static final String host = "";
+    private static final String port = "";
+    private static final String database = "";
+    private static final String username = "";
+    private static final String password = "";
+    
+    public static String getHost(){
+        return host;
+    }
+    public static String getPort(){
+        return port;
+    }
+    public static String getDatabase(){
+        return database;
+    }
+    public static String getUsername(){
+        return username;
+    }
+    public static String getPassword(){
+        return password;
+    }
+    
+}
